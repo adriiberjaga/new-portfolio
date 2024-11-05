@@ -1,0 +1,32 @@
+.a-container{
+    padding-top: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #080808;
+    color: #fff;
+    
+}
+.a-container__socialMedia{
+    display: flex;
+    gap: 16px;
+}
+.a-container__socialMedia-links{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 2px solid #00ffee;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: #0fe;
+    transition: all .3s ease-in-out;
+}
+.a-container__socialMedia-links:hover{
+    color: #080808;
+    background-color: #00ffff; 
+    box-shadow: 0 0 20px 8px #00ffff; 
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+}

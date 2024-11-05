@@ -1,0 +1,19 @@
+/*styles to navbar*/
+.a-navbar{ 
+    padding-left: 200px;
+    padding-right: 100px;
+    position: fixed;
+    width: 100%;
+}
+@media (max-width: 992px){
+    .a-navbar{
+        padding-left: 130px;
+        padding-right: 80px;
+    }
+}
+@media (max-width: 598px){
+    .a-navbar{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
