@@ -6,8 +6,8 @@
     width: 100%;
     height: 70px;
     background-color:#00000000 !important ;
-    -webkit-backdrop-filter: blur(2rem);
-    backdrop-filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem) ;
+    backdrop-filter: blur(2rem) ;
 
 }
 .navbar-brand,
@@ -29,3 +29,4 @@
         padding-right: 20px;
     }
 }
+

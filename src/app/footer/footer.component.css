@@ -1,0 +1,8 @@
+.a-copy{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
